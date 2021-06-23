@@ -1,0 +1,72 @@
+Found a 9 line (55 tokens) duplication in the following files: 
+Starting at line 101 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java
+Starting at line 113 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java
+
+                game.randomInit(randomProbability);
+                for (int i = 0; i < game.getWidth(); ++i) {
+                    for (int j = 0; j < game.getHeight(); ++j) {
+                        updateCellBtnUI(game.getCellByXY(i, j));
+                    }
+                }
+            }
+        });
+        rightPanel.add(randomBtn);
+=====================================================================
+Found a 2 line (34 tokens) duplication in the following files: 
+Starting at line 186 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java
+Starting at line 102 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java
+Starting at line 114 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java
+
+            for (int i = 0; i < game.getWidth(); ++i) {
+                for (int j = 0; j < game.getHeight(); ++j) {
+=====================================================================
+Found a 5 line (31 tokens) duplication in the following files: 
+Starting at line 23 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java
+Starting at line 32 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java
+
+		public void testInit() { 
+		  for(int i = 0;i<10;i++) 
+		  {	  
+			  for(int j=0 ; j<10 ;j++) 
+			  {assertEquals(LifeStatus.DEATH,g.getCellByXY(i, j).getStatus());}
+=====================================================================
+Found a 4 line (30 tokens) duplication in the following files: 
+Starting at line 24 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java
+Starting at line 45 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java
+
+		  for(int i = 0;i<10;i++) 
+		  {	  
+			  for(int j=0 ; j<10 ;j++) 
+			  {assertEquals(LifeStatus.DEATH,g.getCellByXY(i, j).getStatus());}
+=====================================================================
+Found a 4 line (28 tokens) duplication in the following files: 
+Starting at line 34 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java
+Starting at line 45 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java
+
+	    for(int i = 0;i<10;i++) 
+		  {	  
+			  for(int j=0 ; j<10 ;j++) 
+			  {assertEquals(0,g.getNeighbor(i, j));}
+=====================================================================
+Found a 3 line (27 tokens) duplication in the following files: 
+Starting at line 117 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java
+Starting at line 121 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java
+
+                List<Cell> changeCells = new ArrayList<Cell>();
+                for (int j = 0; j < height; ++j) {
+                    for (int i = 0; i < width; ++i){
+=====================================================================
+Found a 2 line (26 tokens) duplication in the following files: 
+Starting at line 37 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java
+Starting at line 64 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java
+
+        for (int i = 0; i < width; i++) {
+            for (int j = 0; j < height; j++) {
+=====================================================================
+Found a 2 line (26 tokens) duplication in the following files: 
+Starting at line 118 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java
+Starting at line 130 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java
+Starting at line 123 of D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java
+
+                for (int j = 0; j < height; ++j) {
+                    for (int i = 0; i < width; ++i){

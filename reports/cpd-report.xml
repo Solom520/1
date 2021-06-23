@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="GBK"?>
+<pmd-cpd>
+   <duplication lines="9" tokens="55">
+      <file line="101"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java"/>
+      <file line="113"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java"/>
+      <codefragment><![CDATA[                game.randomInit(randomProbability);
+                for (int i = 0; i < game.getWidth(); ++i) {
+                    for (int j = 0; j < game.getHeight(); ++j) {
+                        updateCellBtnUI(game.getCellByXY(i, j));
+                    }
+                }
+            }
+        });
+        rightPanel.add(randomBtn);]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="34">
+      <file line="186"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java"/>
+      <file line="102"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java"/>
+      <file line="114"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java"/>
+      <codefragment><![CDATA[            for (int i = 0; i < game.getWidth(); ++i) {
+                for (int j = 0; j < game.getHeight(); ++j) {]]></codefragment>
+   </duplication>
+   <duplication lines="5" tokens="31">
+      <file line="23"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java"/>
+      <file line="32"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java"/>
+      <codefragment><![CDATA[		public void testInit() { 
+		  for(int i = 0;i<10;i++) 
+		  {	  
+			  for(int j=0 ; j<10 ;j++) 
+			  {assertEquals(LifeStatus.DEATH,g.getCellByXY(i, j).getStatus());}]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="30">
+      <file line="24"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java"/>
+      <file line="45"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java"/>
+      <codefragment><![CDATA[		  for(int i = 0;i<10;i++) 
+		  {	  
+			  for(int j=0 ; j<10 ;j++) 
+			  {assertEquals(LifeStatus.DEATH,g.getCellByXY(i, j).getStatus());}]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="28">
+      <file line="34"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java"/>
+      <file line="45"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\GameTest.java"/>
+      <codefragment><![CDATA[	    for(int i = 0;i<10;i++) 
+		  {	  
+			  for(int j=0 ; j<10 ;j++) 
+			  {assertEquals(0,g.getNeighbor(i, j));}]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="27">
+      <file line="117"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java"/>
+      <file line="121"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java"/>
+      <codefragment><![CDATA[                List<Cell> changeCells = new ArrayList<Cell>();
+                for (int j = 0; j < height; ++j) {
+                    for (int i = 0; i < width; ++i){]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="26">
+      <file line="37"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java"/>
+      <file line="64"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java"/>
+      <codefragment><![CDATA[        for (int i = 0; i < width; i++) {
+            for (int j = 0; j < height; j++) {]]></codefragment>
+   </duplication>
+   <duplication lines="2" tokens="26">
+      <file line="118"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java"/>
+      <file line="130"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\Game.java"/>
+      <file line="123"
+            path="D:\大二下学期实验\软件工程基础实验\lifegame-master (2)\lifegame-master\src\com\frans\lifegame\ui\GameFrame.java"/>
+      <codefragment><![CDATA[                for (int j = 0; j < height; ++j) {
+                    for (int i = 0; i < width; ++i){]]></codefragment>
+   </duplication>
+</pmd-cpd>
